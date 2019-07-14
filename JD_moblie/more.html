@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/chart/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/chart/mui.css" />
+		<link rel="stylesheet" href="icon-font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	</head>
+	<style type="text/css">
+		* {
+			font-family: "微软雅黑";
+		}
+	</style>
+	<body style="background-image: url(img/bg.png); background-attachment: fixed;">
+
+		<!-- 导航栏 -->
+		<div id="nav" style="height: 3rem;background-color: white;display: flex;justify-content: space-between;align-items: center;">
+			<span class="iconfont icon-fanhui" style="padding-left: 2rem; font-size: 1.1em;"></span>
+			<p style="font-size: 1.2em;font-weight: 500;color: #000000;">京东拼购</p>
+			<span class="iconfont icon-gengduo" style="padding-right: 2rem; font-size: 1.3em;"></span>
+		</div>
+		<!-- 导航栏 -->
+
+		<!-- 搜索框部分-->
+		<div style="display: flex;justify-content: space-around;align-items: center;margin-top: 1.5rem;">
+
+			<div class="mui-input-row mui-search" style="width: 70%;height: 2rem; background-color: transparent; border-radius: 25px;">
+				<input type="search" class="mui-input-clear" style="background-color: white;" placeholder="大家都在搜 太阳镜">
+			</div>
+			<div style="width: 2rem;height: 2rem;animation:swing 2s infinite;;">
+				<img src="img/jdd.png" width="80%">
+			</div>
+
+		</div>
+		<!-- 搜索框部分-->
+
+
+
+		<div class="mui-slider" style="color: white; padding: 1rem;">
+
+
+			<!-- 分类部分 -->
+			<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				<a class="mui-control-item" href="#item1" style="font-size: 1.5em;font-weight: 600px;">精选</a>
+				<a class="mui-control-item" href="#item2">文娱</a>
+				<a class="mui-control-item" href="#item2">数码</a>
+				<a class="mui-control-item" href="#item2">家具</a>
+				<a class="mui-control-item" href="#item2">日用</a>
+				<a class="mui-control-item" href="#item2">汽车</a>
+			</div>
+			<!-- 分类部分 -->
+
+
+			<!-- 		<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6 mui-scroll-wrappe"></div>
+		<div class="mui-slider-group mui-scroll">
+			<div id="item1" class="mui-slider-item mui-control-content mui-active"> -->
+
+
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/3.png">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/1.png">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/2.png">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="img/3.png">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="img/1.png">
+						</a>
+					</div>
+				</div>
+
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+
+
+
+			<div class="mui-content"style="margin-top: 5px;border-radius: 5px;background-color: white;color: #000000;">
+				<div class="mui-row " style="height:5rem;">
+					<div class="mui-col-sm-3 mui-col-xs-3" style="margin-top: 1rem;">
+						<div style="margin: auto;"><img src="img/l1.png"style="width: 30%; margin-left: 35%;" ></div>
+						<div><p style="font-size: 0.8em; margin:auto;text-align: center;">9.9元包邮</p></div>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3" style="margin-top: 1rem;">
+						<div style="margin: auto;"><img src="img/l2.png"style="width: 30%; margin-left: 35%;" ></div>
+						<div><p style="font-size: 0.8em; margin:auto;text-align: center;">一元福利</p></div>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3" style="margin-top: 1rem;">
+						<div style="margin: auto;"><img src="img/l3.png"style="width: 30%; margin-left: 35%;" ></div>
+						<div><p style="font-size: 0.8em; margin:auto;text-align: center;">名厂清仓</p></div>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3" style="margin-top: 1rem;">
+						<div style="margin: auto;"><img src="img/l4.png"style="width: 30%; margin-left: 35%;" ></div>
+						<div><p style="font-size: 0.8em; margin:auto;text-align: center;">9.9元包邮</p></div>
+					</div>
+			</div>
+
+			<div id="">
+				<img src="img/hf.png" style="width: 100%; ">
+			</div>
+
+			<span id="" style="text-align: center;">
+				<p style="font-size: 1.6em;color: #000000;padding-top: 1rem;font-weight: 600;">大家都在买</p>
+			</span>
+			
+			
+			<ul class="mui-table-view mui-grid-view">
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+					<a href="#">
+						<img class="mui-media-object" src="img/s1.png">
+						<div class="mui-media-body">【可以备注尺码】包邮 男士夏季短袖T恤 潮流短袖白丅圆领体恤男装 招财猫 XL</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+					<a href="#">
+						<img class="mui-media-object" src="img/s2.jpg">
+						<div class="mui-media-body">薇念 新款爱心碗纯色螺纹棉美背吊带裹胸防走光螺纹性感打底抹胸女士内衣 颜色随机 均码</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+					<a href="#">
+						<img class="mui-media-object" src="img/s3.jpg">
+						<div class="mui-media-body">简约气质耳钉时尚韩版耳环女清新玫瑰花语耳饰简约个性耳坠925银耳针优雅甜美饰品送女友情人节生日礼物 </div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+					<a href="#">
+						<img class="mui-media-object" src="img/s4.jpg">
+						<div class="mui-media-body">优勤 防溅水龙头嘴加长万能厨房家用花洒过滤器头自来水节水通用 超强增压【内丝24mm 外丝22mm 可安装】白色</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-6">
+					<a href="#">
+						<img class="mui-media-object" src="img/s5.jpg">
+						<div class="mui-media-body">FREEFISH OPPOR15梦镜版手机壳R9sPLUS保护套r15x硅胶R11s软壳R17pro 【2件装】请备注颜色和型号,无备注则随机发货 【2件装】选项有的型号均可备注</div>
+					</a>
+				</li>
+			</ul>
+
+
+		</div>
+		<div id="item2" class="mui-slider-item mui-control-content">
+		</div>
+		</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab"style="background-color: white;border: none;">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon mui-icon-home" style="color: red;"></span>
+				<span class="mui-tab-label" style="color: red;">拼购首页</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon mui-icon-list"></span>
+				<span class="mui-tab-label">找东西</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon mui-icon-starhalf"></span>
+				<span class="mui-tab-label">领福利</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon mui-icon-person"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		
+	</body>
+	<script type="text/javascript" charset="utf-8">
+		mui.init();
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+		});
+	</script>
+</html>
